@@ -19,7 +19,6 @@ until cents==0
   cents=cents-5
   elsif cents%1==0
     then coins[:pennies] += 1
-    *1==cents
   cents=cents-1
   else
 break
