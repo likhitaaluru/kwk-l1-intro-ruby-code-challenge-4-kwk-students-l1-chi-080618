@@ -26,6 +26,6 @@ break
 end
 puts coins
 end
-least_coins(175)
+least_coins(130)
 
 
