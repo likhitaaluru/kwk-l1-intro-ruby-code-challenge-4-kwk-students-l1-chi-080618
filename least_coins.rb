@@ -1,7 +1,11 @@
 #write out your code here
 
 def least_coins(cents)
-
-#Code your answer here!
+least_coins={
+  :quarters => "0.25"
+  :dimes => "0.10"
+  :nickels => "0.05"
+  :pennies => "0.01"
+}
 
 end
