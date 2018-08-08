@@ -10,16 +10,17 @@ coins={
 until cents==0
   if cents%25==0
     then coins[:quarters] += 1
-    *25==cents
+  cents=cents-25
   elsif cents%10==0
     then coins[:dimes] += 1
-    *10==cents
+  cents=cents-10
   elsif cents%5==0
     then coins[:nickels] += 1
-    *5==cents
+  cents=cents-5
   elsif cents%1==0
     then coins[:pennies] += 1
     *1==cents
+  cents=cents-1
   else
 break
   end
