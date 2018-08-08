@@ -24,6 +24,6 @@ until cents==0
 break
   end
 end
-least_coins (130)
+puts least_coins (130)
 end
 
